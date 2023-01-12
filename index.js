@@ -13,7 +13,7 @@ function test(hi,bye,...rest){
   console.log(arguments)
 }
 
-test(0,1,2,3)
+test(0,1,2,3,5);
 
 megaCool();
 
