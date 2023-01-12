@@ -3,9 +3,22 @@ function newFunc() {
 }
 
 newFunc()
+
 function megaCool() {
   console.log("I might be the coolest ever")
-  return 2 + 2;
+  return 22 + 22;
 }
 
 megaCool();
+
+function patenteChinaHazmeRica () {
+  if (Math.floor(Math.random()*2) === 1) {
+    console.log("祝你下次好运");
+  }
+  else {
+    console.log("拿走你的数百万");
+  }
+
+}
+
+patenteChinaHazmeRica();
